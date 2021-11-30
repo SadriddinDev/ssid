@@ -29,3 +29,8 @@ class CompanyAdmin(admin.ModelAdmin):
 @admin.register(ShareAction)
 class ShareActionAdmin(admin.ModelAdmin):
     list_display = ['id', 'created', 'user', 'company']
+
+
+@admin.register(Post)
+class PostAdmin(admin.ModelAdmin):
+    pass
